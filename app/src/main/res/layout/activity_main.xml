@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ImageView
+            android:src="@drawable/photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/fab_margin"
+            android:paddingTop="@dimen/fab_margin"
+            android:paddingRight="@dimen/fab_margin"
+            android:paddingLeft="@dimen/fab_margin"
+            android:padding="@dimen/fab_margin"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:ems="10"
+            android:padding="@dimen/fab_margin"
+            android:paddingBottom="@dimen/fab_margin"
+            android:paddingTop="@dimen/fab_margin"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="316dp"
+            android:paddingBottom="@dimen/fab_margin"
+            android:paddingTop="@dimen/fab_margin"
+            android:paddingRight="@dimen/fab_margin"
+            android:paddingLeft="@dimen/fab_margin"
+            android:padding="@dimen/fab_margin"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
